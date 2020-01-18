@@ -7,7 +7,7 @@ public class SimpleFrame extends JFrame {
     // Po rozszerzeniu tworze konstruktor
     public SimpleFrame() {
         super("Moja pierwsza aplikacja okienkowa");
-        setSize(300, 100);
+        setSize(200, 100);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLookAndFeel();
         setVisible(true);
